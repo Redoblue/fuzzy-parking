@@ -74,5 +74,5 @@ f = addrule(f, rulelist);
 % showrule(f)                     % Show fuzzy rule base
 
 f = setfis(f, 'DefuzzMethod', 'centroid'); %Defuzzy
-% writefis(f, 'auto_drive_fc');
+writefis(f, 'auto_drive_fc');
 
